@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'DM Sans', sans-serif;
+
+  --color-brand: #4F6EF7;
+  --color-brand-dark: #3A56D4;
+  --color-brand-light: #EEF1FF;
+  --color-surface: #F8F9FB;
+  --color-surface-elevated: #FFFFFF;
+  --color-border: #E8EBF0;
+  --color-muted: #8B91A0;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-cloud: #A78BFA;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
